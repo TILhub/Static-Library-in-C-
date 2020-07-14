@@ -7,6 +7,8 @@
    eg. cl /c moo.cpp
  4) This will create a obj file.
     To create a static library, use the following command.  
-  $lib /out:static_library.lib moo.cpp
+   $lib /out:static_library.lib moo.cpp
   
-  eg. $lib /out:output_file_name.lib inputfile.cpp
+   eg. $lib /out:output_file_name.lib inputfile.cpp
+ 5) To link your library file to you file in which you are calling that lib function
+   use: cl main.coo /link static_lib.lib
