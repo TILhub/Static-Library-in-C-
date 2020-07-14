@@ -13,3 +13,5 @@
    
  5) To link your library file to you file in which you are calling that lib function
    use: cl main.coo /link static_lib.lib
+   
+   https://www.youtube.com/watch?v=Jzh4ZULXsvo
